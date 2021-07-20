@@ -23,11 +23,13 @@ To install a package using the dotnet CLI:  `dotnet add package <package-name>`
 ### To run:
 - clone the repo
 - open a terminal and type: `dotnet watch run` or `dotnet run`
-- open postman and create a user first using the **POST** method at the endpoint: `http://localhost5000/api/create-user`
+- open postman and create a user first using the **POST** method at the endpoint: `http://localhost5000/api/user/create-user`
 - now, go to `http://localhost5000/api/user/authenticate`, and enter the email and password of the user you just created and send a **POST** request
 - You will receive a token as a response. Copy the token
 - Now, go to `http://localhost5000/api/user/` and create a **GET** request. Now select the Authorization tab and choose *Bearer Token* and paste the token
 - Send the request and you will be authenticated. The token is set to expire in 1 minute.
+
+![image](https://user-images.githubusercontent.com/46298019/126398651-e205277b-0a34-4690-a46c-e13d3497fe23.png)
 
 ### NOTE
 - there are 2 models: Pizza and User. 
