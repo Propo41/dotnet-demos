@@ -36,6 +36,8 @@ namespace dotnet_web_api_demo.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
+        [Route("create-user")]
         public ActionResult<User> Create(User user)
         {
             userService.Create(user);
