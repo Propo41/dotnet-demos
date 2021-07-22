@@ -2,3 +2,5 @@ vscode
 ./.vscode
 ./bin
 ./obj
+/obj
+bin
