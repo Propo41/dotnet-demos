@@ -19,6 +19,7 @@ To install a package using the dotnet CLI:  `dotnet add package <package-name>`
 - `Microsoft.AspNetCore.Authentication`
 - `Microsoft.AspNetCore.Authentication.JwtBearer`
 - `System.IdentityModel.Tokens.Jwt`
+- `SendGrid`
 
 ### To run:
 - clone the repo
