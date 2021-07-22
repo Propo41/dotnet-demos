@@ -41,3 +41,6 @@ C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\obj\Debug\net5.0
 C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\obj\Debug\net5.0\ref\DebugDemo.dll
 C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\obj\Debug\net5.0\DebugDemo.pdb
 C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\obj\Debug\net5.0\DebugDemo.genruntimeconfig.cache
+C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\bin\Debug\net5.0\SendGrid.dll
+C:\Users\Swapnil\Desktop\Programming\dotnet\dotnet web api demo\bin\Debug\net5.0\StarkbankEcdsa.dll

@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[2.13.0, )"
             },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.24.1, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.11.1, )"

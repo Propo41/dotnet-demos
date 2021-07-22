@@ -16,10 +16,12 @@ namespace dotnet_web_api_demo.Controllers
     [Route("api/[controller]")]
     public class UserController : Controller
     {
+        private readonly EmailService emailService;
         private readonly UserService userService;
-        public UserController(UserService userService)
+        public UserController(UserService userService, EmailService emailService)
         {
             this.userService = userService;
+            this.emailService = emailService;
         }
 
         [HttpGet]
@@ -41,6 +43,7 @@ namespace dotnet_web_api_demo.Controllers
         public ActionResult<User> Create(User user)
         {
             userService.Create(user);
+            emailService.Main();
             return Json(user); // try removing Json and see what happens
         }
 

@@ -30,6 +30,8 @@ namespace DebugDemo
             services.AddControllers();
             services.AddSingleton<IDatabaseSettings>(db => db.GetRequiredService<IOptions<DatabaseSettings>>().Value);
             services.AddScoped<UserService>();
+            services.AddScoped<EmailService>();                                                    
+
 
             // Adding Authentication  
             services.AddAuthentication(options =>
