@@ -5,6 +5,7 @@ Resources:
 
 - https://medium.com/nerd-for-tech/net-jwt-authentication-with-mongodb-9bca4a33d3f0 
 - https://www.c-sharpcorner.com/article/authentication-and-authorization-in-asp-net-core-web-api-with-json-web-tokens/
+- https://www.mongodb.com/blog/post/quick-start-c-and-mongodb--read-operations : mongodb docs
 
 ### Description
 
