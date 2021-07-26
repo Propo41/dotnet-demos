@@ -10,8 +10,9 @@ There are 2 ways to upload.
 I used method 2 which is more secure for the website I'm intending to use on.
 The signature key is to be passed like the following:
 
+![image](https://user-images.githubusercontent.com/46298019/127070453-a993efab-ffa1-4217-a0b0-c3c05b22c3dd.png)
 
-
+*UPLOADCARE_PUB_KEY: is the public key of the project. This can be found in the API KEYS section*
 
 References:
 - https://uploadcare.com/docs/security/secure-uploads/
@@ -20,6 +21,11 @@ References:
 Again, there are 2 ways:
 1. By using the secret key directly and sending the uuid of the file in DELETE request
 2. By generating a signature along with several other headers.
+
+I used method 1 as it's simpler and safer as it will be done in the server side.
+
+![image](https://user-images.githubusercontent.com/46298019/127070572-1c37a66c-89d7-4c10-a8f5-cfa35cc31340.png)
+
 
 References:
 - https://uploadcare.com/api-refs/rest-api/v0.5.0/#operation/deleteFileStorage 
