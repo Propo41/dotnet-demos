@@ -1,5 +1,6 @@
 # dotnet-demos
-A demo showing the usage of a custom jwt middleware
+A demo showing the usage of a custom jwt middleware.
+A custom middleware JwtMiddleware is used to validate the JWT tokens sent from the client using in the Authorization header
 
 There are 3 endpoints here:
 1. `GET /token`
