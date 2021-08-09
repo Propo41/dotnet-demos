@@ -13,6 +13,7 @@ The signature key is to be passed like the following:
 ![image](https://user-images.githubusercontent.com/46298019/127070453-a993efab-ffa1-4217-a0b0-c3c05b22c3dd.png)
 
 *UPLOADCARE_PUB_KEY: is the public key of the project. This can be found in the API KEYS section*
+
 *By default, images stored will be deleted after 24 hours. To make them permanent, you have to send a header "store" and set it to "1" <a href="https://uploadcare.com/api-refs/upload-api/#operation/baseUpload">Reference</a>*
 
 The response will include the file's UUID which I will be storing in the database.
